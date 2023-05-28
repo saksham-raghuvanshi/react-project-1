@@ -20,14 +20,36 @@ nav{
         display:flex;
         justify-content: flex-end;
         transition: 0.3s ease-in-out;
+       
 
-        > a{
+        
+
+
+        > ul a{
             color: $dark;
             margin: 1rem;
+            border-bottom: 2px solid transparent;
+
+
 
             &:hover{
-                color:$third;
+                color:$third; 
+                border-bottom: 1px solid;
+                transition: border-bottom 0.2s;
+                
+                
             }
+
+            &:active{
+                color: $third;
+            }
+
+           
+
+           
+            
+
+           
 
             
             
@@ -43,20 +65,53 @@ nav{
     }
 
 
+    .mobile{
+        display: none;
+    }
+
+
+    @media screen and (max-width:760px) {
+        div.mobile{
+            display:block;
+        }
+       
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                position: fixed;
+                top:60px;
+                right:-300px;
+                height: 100vh;
+                width: 40%;
+                background: $first;
+                box-shadow: 0 40px 60px ;
+                padding: 40px 0 0 10px;
+                transition: 0.3s ease-in-out;
+
+            
+            }
+            
+            ul.active{
+                right:0px;
+
+            }
+
+
+            div.mobile i{
+                font-size: 24px;
+                cursor: pointer;
+            }
+
+
+            
+           
+
+
+          
+    }
   
-}
-
-
-
-nav main li a:hover::after {
-
-    content:"";
-    width: 30px;
-    height: 2px;
-    background: $third;
-    position: sticky;
-    bottom: -4px;
-    left: 20px;
-    
 }
 
