@@ -24,6 +24,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+To get a copy of this project up and running on your local machine, follow these steps:
+
+<ul>
+<li>Clone the repository: git clone https://github.com/your-username/react-responsive-navbar.git</li>
+  <li>Navigate to the project directory: cd react-project-1</li>
+  <li>Install dependencies: npm install</li>
+</ul
 ### `npm start`
 
 Runs the app in the development mode.\
