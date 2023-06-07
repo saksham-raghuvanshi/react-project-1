@@ -14,6 +14,9 @@ This is a responsive navbar project built using ReactJS, HTML, CSS, and JavaScri
 Contributions to this project are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
 <br>
+<br>
+<br>
+<hr>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
