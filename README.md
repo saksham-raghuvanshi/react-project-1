@@ -31,6 +31,11 @@ To get a copy of this project up and running on your local machine, follow these
   <li>Navigate to the project directory: cd react-project-1</li>
   <li>Install dependencies: npm install</li>
 </ul
+ <br>
+ <br>
+ <hr> 
+  
+  
 ### `npm start`
 
 Runs the app in the development mode.\
