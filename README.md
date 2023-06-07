@@ -2,6 +2,17 @@
 
 Deploy Link - https://deploy-preview-1--astounding-bublanina-fadcec.netlify.app/
 
+This is a responsive navbar project built using ReactJS, HTML, CSS, and JavaScript. The project aims to provide a simple template for a responsive navigation bar that adapts to different screen sizes and devices.
+
+<h2>Features</h2>
+<ul>
+<li>Responsive design that adjusts to different screen sizes, ensuring a consistent user experience across devices.</li>
+  <li>Toggle menu icon for mobile devices, providing easy navigation on small screens.</li>
+  
+  <h2>Contributing</h2>
+Contributions to this project are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
